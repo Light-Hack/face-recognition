@@ -7,7 +7,7 @@ Loading the known pictures
 We are loading the database with known images from memory and creating an array of their properties into it. Next step we are giving a name to each known image.
 
 
-# Load an image with an unknown face
+# Load an image with an unknown face which is never used.
 unknown_image = face_recognition.load_image_file("modi0.jpg")
 
 # Find all the faces and face encodings in the unknown image
